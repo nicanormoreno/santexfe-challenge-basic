@@ -1,0 +1,53 @@
+.card-title {
+    font-size: large;
+    margin-bottom: 1.2rem;
+}
+
+.card-price {
+    font-size: x-large;
+    font-weight: bold;
+    margin: .2rem 0;
+}
+
+.flex-container {
+    display: flex;
+    gap: 1rem;
+}
+
+.image {
+    object-fit: fill;
+    aspect-ratio: 2/1;
+    width: 250px;
+    height: 200px;
+}
+
+.margin-1{
+    margin: 1rem;
+}
+
+.card-body {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+}
+
+.card-description {
+    max-width: calc(100vw - 270px);
+    text-wrap: wrap;
+}
+
+.button-size {
+    min-width: 150px;
+    height: 56px;
+}
+
+.card-actions {
+    justify-content: flex-end;
+}
+
+
+
+
